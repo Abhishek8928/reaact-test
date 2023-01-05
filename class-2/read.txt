@@ -1,0 +1,143 @@
+! package-lock.json is very importnt file
+! it locks the version
+! never add it on gitignore
+! it is working on my system but it is not working in production
+! it contains the exact version of the machine and on the server
+! it is contains the integrity
+
+
+?browserlist help us to make our app compactable to older version of browser also
+
+? if package-lock.json and packag-json i can recreate the node modules again
+
+
+todo: machine -> (we cannot move the version directly) -> server (possible)
+
+todo: machine -> git => server fetch from the git repository
+todo: module -> can import and export
+
+
+? parcel provide us the thing
+todo: (refresh the thing) live server
+todo: hot module replacement (update the thing at the runtime) (track of all file)-> file watcher algorithm -> written in C++
+todo: it create parcel cache (all thing happen it uses the file (minified,hmr,fwa))
+todo: development build and hoisted on the server
+todo: npx parcel build index.html (this for production builds only)
+todo: bundling the thing
+todo: minified
+todo: cleaning the code (removing console stuff)
+todo: media element (optimization)
+todo: it create dev and production build
+todo: super fast build algorithm
+todo: caching in development
+todo:compression (rename the thing)
+todo: compactiable to older version of browser
+todo: http or https (enable) on dev machine
+todo: port number
+todo: consitency hashing algorithm (cache things)
+
+? what is npm?
+todo: our react app just not build on react we needed more package to build the production ready application
+todo: for install the package we needed a package manager which manages the package
+todo: npm init -> it gives the option to specified the thing
+todo: npm init -y -> it will skip many option
+
+? What is `Parcel/Webpack`? Why do we need it?
+todo: our react app just not build on react we needed more package to build the production ready
+todo: we needed to have optimize our code,console cleaning,image optimazation,tree hashing(remove unwanted code),minified files
+todo: to have all this we have use bundler which parcel gives us all this super power to do that
+todo: it create the development and production environment to test our application on the server
+todo: generlly react uses the webpack (wepack has the similar feature) and babel
+
+? What is `.parcel-cache`
+
+todo: it store the information when parcel build it
+todo: not reparse or re-analyse the thing again
+
+? What is `npx` 
+todo: when we have execute something for one time npx
+
+? What is difference between `dependencies` vs `devDependencies`
+todo: we needed to install some package as the dpendies or devDependencies
+
+todo: npm i (or) install package_name (dependcies)
+todo: npm i package_name --save-dev (devDependencies)
+
+todo: to install the package as devDependencies which will only use for deployment purpose
+todo: the package which install by dd which not install at the production
+todo: the package which install as dependencies which install at production
+todo: because our project is dependent on something that is why we have to install the thing
+
+? List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+todo: hot module replacement
+todo: tree shaking
+todo: image optimization
+todo: cleaning the code(removing the console)
+
+todo: prodive develpoment and production enevronment
+todo: give access to http and https
+todo: it manage the port also
+todo: parcel cache
+todo: file watcher algorithm (written in c++) it tracks all file and quickly check all the thing
+todo: development build and hoisted on the server
+todo: zero configuration
+
+
+? What is `.gitignore`? What should we add and not add into it?
+
+todo: if we do not wanted to add somefile to my github then we can add it on gitnnore folder
+todo: what we can regenearated we have add it on gitingnore
+todo: our package.json has the sufficient information to regenearate any package
+
+? - What is `node_modules` ? Is it a good idea to push that on git
+
+todo: whenever we install any package it it got install inside no module folder
+
+todo: no , because node_module can be download on the server
+todo: reason beacuse our package.json file has the sufficient knowlodge to regeneartae any package
+
+? What is the `dist` folder
+
+todo: whenever we create run build command it create minified , clear console and optimized code for us
+
+todo : npx(execute) parcel build entry-point
+todo: when we run command it create a production code and create dist folder inside that  we have minified code
+
+? What is `browserlists`
+todo: browser list help to make our app compactable to all older version of browser also4
+
+
+? Read about: ^ - caret and ~ - tilda
+
+todo: npm uses caret and tilde to designated which minor and patch version should installed
+todo: ^12.3.4 it will install the lastest version (or) minor version and patch version
+todo : ~2.3.4 it will install latest version (or) patch version
+todo: ^ and ~ helps to auto upgrade the version
+todo: if we donot specified any sign then it will stick to the specific version
+
+todo: (^caret and ~ tilde)
+
+some point
+! browser does not understand import and export
+! we have tell the browser that is not the js file it is module with the help of attrible type module
+! crossorgin is attribute in script tag which help us to share the resource from one domain to another domain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
